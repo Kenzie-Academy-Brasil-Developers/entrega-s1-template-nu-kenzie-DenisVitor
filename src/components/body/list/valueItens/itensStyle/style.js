@@ -43,6 +43,10 @@ export const StyledListButton = styled.button`
     padding: 0.4rem 1rem;
     text-align: center;
     align-self: self-end;
+    transition: 0.2s ease-in-out;
+    :hover{
+        background-color: var(--grey-3);
+    }
 `
 export const StyledListDivision = styled.div`
     display: flex;
