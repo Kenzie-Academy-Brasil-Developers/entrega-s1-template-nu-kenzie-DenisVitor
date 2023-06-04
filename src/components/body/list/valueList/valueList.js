@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-   margin-top: 5rem;
+   margin-top: 2rem;
    margin-left: 2rem;
    font-family: var(--ff);
    display: flex;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.form`
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     font-family: var(--ff);
     flex-direction: column;

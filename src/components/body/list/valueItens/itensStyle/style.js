@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledList = styled.ul`
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     .Despesa{

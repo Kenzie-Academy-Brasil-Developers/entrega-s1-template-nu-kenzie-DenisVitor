@@ -19,7 +19,7 @@ export const StyledCounterTitle = styled.h2`
     display: flex;
     justify-content: space-between;
     font-weight: 800;
-    white-space: nowrap;
+
 `
 export const StyledCounterMoney = styled.span`
     color: var(--color-primary-1);
