@@ -1,5 +1,5 @@
 import React from "react"
-import { StyledItem, StyledList, StyledListButton, StyledListDivision, StyledMoney, StyledText } from "./itensStyle/style"
+import { StyledItem, StyledList, ListButton, StyledListDivision, ListMoney, ListText } from "./itensStyle/style"
 import { StyledTitle } from "../../../../styles/typography"
 
 export const ValueItens = ({valueList, setValueList}) => {
@@ -13,10 +13,10 @@ export const ValueItens = ({valueList, setValueList}) => {
                 return(
                     <StyledItem className={value.select} key={value.id}>
                         <StyledTitle>{value.desc}</StyledTitle>
-                        <StyledMoney>{monetaryValue}</StyledMoney>
+                        <ListMoney>{monetaryValue}</ListMoney>
                         <StyledListDivision>
-                            <StyledText>{value.select}</StyledText>
-                            <StyledListButton onClick={() => removeValueItem(value.id)}>Excluir</StyledListButton>
+                            <ListText>{value.select}</ListText>
+                            <ListButton onClick={() => removeValueItem(value.id)}>Excluir</ListButton>
                         </StyledListDivision>
                     </StyledItem>
                 )

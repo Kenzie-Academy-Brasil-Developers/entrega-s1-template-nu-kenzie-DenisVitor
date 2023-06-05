@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   NewButton,
-  NewForm,
+  StyledForm,
   NewInputText,
   NewLabel,
   NewNumberInput,
@@ -32,7 +32,7 @@ export function BodyForm({setValueList}) {
   };
 
   return (
-    <NewForm onSubmit={submitValue}>
+    <StyledForm onSubmit={submitValue}>
       <NewLabel>Descrição</NewLabel>
       <NewInputText
         placeholder="Digite aqui sua descrição"
@@ -56,11 +56,11 @@ export function BodyForm({setValueList}) {
         value={select}
         required
       >
-        <NullOption selected value="">Entrada</NullOption>
+        <NullOption defaultValue={NullOption} value="">Entrada</NullOption>
         <NewOption value="Entrada">Entrada</NewOption>
         <NewOption value="Despesa">Despesa</NewOption>
       </StyledSelect>
       <NewButton type="submit">Inserir valor</NewButton>
-    </NewForm>
+    </StyledForm>
   );
 }

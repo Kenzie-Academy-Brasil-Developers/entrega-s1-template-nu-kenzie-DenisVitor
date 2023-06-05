@@ -1,4 +1,4 @@
-import { StyledCounterMoney, StyledCounterSection, StyledCounterText, StyledCounterTitle } from "./counterStyle/styledCounter"
+import { CounterMoney, StyledCounterSection, CounterText, CounterTitle } from "./counterStyle/styledCounter"
 
 
 export function CounterValues({valueList}){
@@ -13,8 +13,8 @@ export function CounterValues({valueList}){
     const monetaryTotalMoney = totalMoney.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
     return (
         <StyledCounterSection>
-            <StyledCounterTitle>Valor total: <StyledCounterMoney>{monetaryTotalMoney}</StyledCounterMoney></StyledCounterTitle>
-            <StyledCounterText>O valor se refere ao saldo</StyledCounterText>
+            <CounterTitle>Valor total: <CounterMoney>{monetaryTotalMoney}</CounterMoney></CounterTitle>
+            <CounterText>O valor se refere ao saldo</CounterText>
         </StyledCounterSection>
     )
 }
