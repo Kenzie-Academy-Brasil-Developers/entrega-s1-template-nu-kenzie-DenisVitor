@@ -1,8 +1,7 @@
-import { CounterValues } from "./counter/Counter"
-import { ValueItens } from "./valueItens/Itens"
-import { StyledSection } from "./valueList/valueList"
+import { ValueItens } from "../valueItens/Itens"
+import { StyledSection } from "./valueList"
 
-export function RenderValueList({valueList, setValueList}){
+export function ValueList({valueList, setValueList}){
     return(
         <StyledSection>
             <h1>Resumo financeiro</h1>

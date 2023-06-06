@@ -8,7 +8,7 @@ import {
   NewOption,
   NewParagraph,
   NullOption,
-} from "./formStyle/formStyle";
+} from "./formStyle";
 import { StyledSelect } from "../../../styles/select";
 import { v4 as uuidv4} from 'uuid'
 

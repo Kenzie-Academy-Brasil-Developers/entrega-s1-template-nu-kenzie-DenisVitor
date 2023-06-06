@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { RenderValueList } from "./components/body/list/ValueList";
+import { ValueList } from "./components/body/list/ValueList.jsx"
+import { CounterValues } from "./components/body/counter/Counter";
 import { BodyForm } from "./components/body/form/Form";
 import { Header } from "./components/header/Header";
 import { GlobalVariables } from "./styles/global/global";
 import { GlobalResetStyle } from "./styles/global/reset";
-import { CounterValues } from "./components/body/list/counter/Counter";
+
 import {
   StyledBodyContainer,
   StyledContainer,
@@ -24,7 +25,7 @@ function App() {
             <CounterValues valueList={valueList} />
           ) : null}
         </StyledContainer>
-        <RenderValueList setValueList={setValueList} valueList={valueList} />
+        <ValueList setValueList={setValueList} valueList={valueList} />
       </StyledBodyContainer>
     </>
   );

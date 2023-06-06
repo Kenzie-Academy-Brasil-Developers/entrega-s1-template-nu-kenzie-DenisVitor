@@ -1,6 +1,6 @@
 import React from "react"
-import { StyledItem, StyledList, ListButton, StyledListDivision, ListMoney, ListText } from "./itensStyle/style"
-import { StyledTitle } from "../../../../styles/typography"
+import { StyledItem, StyledList, ListButton, StyledListDivision, ListMoney, ListText } from "./style"
+import { StyledTitle } from "../../../styles/typography"
 
 export const ValueItens = ({valueList, setValueList}) => {
     const removeValueItem = (valueId) => {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { StyledCounterMoney, StyledCounterText, StyledCounterTitle } from "../../../../../styles/typography";
+import { StyledCounterMoney, StyledCounterText, StyledCounterTitle } from "../../../styles/typography";
 
 export const StyledCounterSection = styled.section`
     border: 1px solid var(--grey-2);

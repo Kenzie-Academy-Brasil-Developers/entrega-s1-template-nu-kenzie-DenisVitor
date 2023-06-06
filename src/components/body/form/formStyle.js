@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { StyledButton } from "../../../../styles/button";
-import { StyledNumberInput, StyledTextInput } from "../../../../styles/inputs";
-import { StyledOption, StyledSelect } from "../../../../styles/select";
-import { StyledLabel, StyledMicroText } from "../../../../styles/typography";
+import { StyledButton } from "../../../styles/button";
+import { StyledNumberInput, StyledTextInput } from "../../../styles/inputs";
+import { StyledOption, StyledSelect } from "../../../styles/select";
+import { StyledLabel, StyledMicroText } from "../../../styles/typography";
 
 export const StyledForm = styled.form`
     margin-top: 2rem;

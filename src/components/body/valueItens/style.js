@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { StyledMoney, StyledText } from "../../../../../styles/typography";
-import { StyledListButton } from "../../../../../styles/button";
+import { StyledMoney, StyledText } from "../../../styles/typography";
+import { StyledListButton } from "../../../styles/button";
 
 export const StyledList = styled.ul`
     margin-top: 1rem;

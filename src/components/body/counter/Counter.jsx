@@ -1,4 +1,4 @@
-import { CounterMoney, StyledCounterSection, CounterText, CounterTitle } from "./counterStyle/styledCounter"
+import { CounterMoney, StyledCounterSection, CounterText, CounterTitle } from "./styledCounter"
 
 
 export function CounterValues({valueList}){
